@@ -27,8 +27,8 @@ function Bubble()
                 div_sizes[j]=div_sizes[j+1];
                 div_sizes[j+1]=temp;
 
-                div_update(divs[j],div_sizes[j], "grey");//Height update
-                div_update(divs[j+1],div_sizes[j+1], "grey");//Height update
+                div_update(divs[j],div_sizes[j], "red");//Height update
+                div_update(divs[j+1],div_sizes[j+1], "red");//Height update
             }
             div_update(divs[j],div_sizes[j], "blue");//Color updat
         }
@@ -39,9 +39,3 @@ function Bubble()
     enable_buttons();
 }
 
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    
-    *****************
-*/
